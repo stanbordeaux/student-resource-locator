@@ -1,0 +1,305 @@
+/* -----------------------------------------------------------
+    text stylesheet
+----------------------------------------------------------- */ 
+
+body 
+{
+	font-family: Verdana, Helvetica, Sans-Serif; 
+	font-size: 11px;
+}
+
+a 
+{
+	text-decoration: none;
+}
+
+a:hover 
+{
+	text-decoration: underline;
+}
+
+hr 
+{
+	height: 0;
+	clear: both;
+	border: 0 #DDDDDD solid;
+	border-top-width: 1px;
+}
+
+/* ---------------------------------------------------------------------------------------------------
+	headings
+----------------------------------------------------------------------------------------------------*/
+
+h1 { font-size: 21px; }
+h2 { font-size: 19px; }
+h3 { font-size: 17px; }
+h4 { font-size: 15px; }
+h5 { font-size: 13px; }
+h6 { font-size: 11px; }
+
+/* ---------------------------------------------------------------------------------------------------
+	lists
+----------------------------------------------------------------------------------------------------*/
+
+ul.circle { list-style-type: circle; }
+ul.disc { list-style-type: disc; }
+ul.square { list-style-type: square; }
+ol.lower-roman { list-style-type: lower-roman; }
+ol.upper-roman { list-style-type: upper-roman; }
+ol.lower-alpha { list-style-type: lower-alpha; }
+ol.upper-alpha { list-style-type: upper-alpha; }
+
+/* ---------------------------------------------------------------------------------------------------
+	dashboard
+----------------------------------------------------------------------------------------------------*/
+
+#header #dashboard li
+{
+	font-weight: bold;
+}
+
+#header #dashboard li a
+{
+	text-decoration: none;
+}
+
+/* ---------------------------------------------------------------------------------------------------
+	menu
+----------------------------------------------------------------------------------------------------*/
+
+#content #left ul#menu li h6 a
+{
+    text-decoration: none; 
+}
+
+#content #left ul#menu ul li a
+{
+    text-decoration: none;   
+}
+
+#content #left ul#menu ul li a:hover
+{
+    text-decoration: underline;  
+}
+
+#content #left ul#menu .ui-state-hover, 
+#content #left ul#menu .ui-widget-content .ui-state-hover, 
+#content #left ul#menu .ui-state-focus, 
+#content #left ul#menu .ui-widget-content .ui-state-focus  
+{
+    font-weight: bold; 
+}
+
+#content #left ul#menu .ui-state-active, 
+#content #left ul#menu .ui-widget-content .ui-state-active  
+{
+    font-weight: bold; 
+}
+
+/* ---------------------------------------------------------------------------------------------------
+	content -> right
+----------------------------------------------------------------------------------------------------*/
+
+#content #right a
+{
+    font-weight: normal;
+    text-decoration: none;
+}
+
+#content #right a:hover
+{
+    text-decoration: underline;
+}
+
+#content #right p
+{
+    line-height: 170% 
+}
+
+#content #right div.title div.button a
+{
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: lowercase;
+}
+
+/* ---------------------------------------------------------------------------------------------------
+	content -> right -> tabs
+----------------------------------------------------------------------------------------------------*/
+
+#content #right div.tabs li a
+{
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* ---------------------------------------------------------------------------------------------------
+	content -> right -> content box
+----------------------------------------------------------------------------------------------------*/
+
+#content #right div.box div.box-tabs li a
+{
+	font-weight: bold;
+	text-decoration: none;
+}
+
+#content #right div.box div.box-content p
+{
+    line-height: 170%;
+}
+
+#content #right div.box div.box-content ul.statistics li span
+{
+    font-weight: bold;
+}
+
+#content #right div.box div.box-content ul.statistics li span.highlight
+{
+    font-size: 13px;
+    font-style: italic;
+}
+
+/* ---------------------------------------------------------------------------------------------------
+	content -> right -> form
+----------------------------------------------------------------------------------------------------*/
+
+#content #right div.form div.fields div.field div.label label
+{
+    font-weight: normal;
+}
+
+#content #right div.form div.fields div.field div.label span
+{
+	font-size: 11px;
+	text-transform: lowercase;
+}
+
+#content #right div.form div.fields div.field div.input input
+{
+	font-size: 1.0em; 
+	font-family: Verdana, Helvetica, Sans-Serif; 
+}
+
+#content #right div.form div.fields div.field div.input input.button
+{
+	font-size: 1.0em;
+	font-weight: bold; 
+	font-family: Verdana, Helvetica, Sans-Serif; 
+}
+
+#content #right div.form div.fields div.field div.textarea textarea
+{
+	font-size: 1.0em; 
+	font-family: Verdana, Helvetica, Sans-Serif;
+}
+
+#content #right div.form div.fields div.field div.select select
+{
+	font-size: 1.0em; 
+	font-family: Verdana, Helvetica, Sans-Serif; 
+}
+
+#content #right div.form div.fields div.buttons input
+{
+	font-size: 1.0em; 
+    font-weight: bold;
+	font-family: Verdana, Helvetica, Sans-Serif; 
+}
+
+/* ---------------------------------------------------------------------------------------------------
+	content -> right -> table
+----------------------------------------------------------------------------------------------------*/
+
+#content #right div.table table th
+{
+    font-weight: bold;
+}
+
+#content #right div.table table td
+{
+    font-weight: normal;
+}
+
+#content #right div.table table td a
+{
+    font-weight: normal;
+    text-decoration: none;
+}
+
+#content #right div.table table td a:hover
+{
+    text-decoration: underline;
+}
+
+#content #right div.table table td a.selected
+{
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#content #right div.table table td span a
+{
+    font-weight: normal;
+    text-decoration: none;
+}
+
+#content #right div.table table td span a:hover
+{
+    text-decoration: underline;
+}
+
+#content #right div.table div.action select
+{
+	font-size: 1.0em; 
+	font-family: Verdana, Helvetica, Sans-Serif; 
+}
+
+#content #right div.table div.action div.button input
+{
+	font-size: 1.0em; 
+    font-weight: bold;
+	font-family: Verdana, Helvetica, Sans-Serif; 
+}
+
+/* ---------------------------------------------------------------------------------------------------
+	content -> right -> pagination
+----------------------------------------------------------------------------------------------------*/
+
+#content #right div.pagination ul.pager a 
+{
+    text-decoration: none;
+}
+
+#content #right div.pagination ul.pager a:hover, 
+#content #right div.pagination ul.pager a:active 
+{
+	text-decoration: none;
+}
+
+#content #right div.pagination ul.pager li.current 
+{
+    font-weight: bold;
+}
+
+#content #right div.pagination ul.pager li.disabled 
+{
+    text-decoration: line-through;
+}
+
+/* Interaction states
+----------------------------------*/
+.ui-state-default, .ui-widget-content .ui-state-default  
+{
+    font-weight: bold;
+}
+
+.ui-state-default, .ui-widget-content .ui-state-default { font-weight: bold; }
+.ui-state-active, .ui-widget-content .ui-state-active { font-weight: bold; }
+.ui-priority-primary, .ui-widget-content .ui-priority-primary { font-weight: bold; }
+.ui-priority-secondary, .ui-widget-content .ui-priority-secondary { font-weight: normal; }
+
+.ui-datepicker th { font-weight: bold; }
+
+.ui-selectmenu-menu li { font-weight: normal !important; }
+.ui-selectmenu-menu li .ui-selectmenu-item-header { font-weight: bold; }
+.ui-selectmenu-menu .ui-selectmenu-group .ui-selectmenu-group-label { font-weight: bold; }

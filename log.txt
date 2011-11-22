@@ -1,0 +1,72 @@
+[9:28 AM Nov 19 2011] Notice: Undefined property: User_manager_controller::$get_filename IN G:\xampp\htdocs\standingo\application\controller\user_manager.php ON LINE 32
+[10:28 AM Nov 19 2011] Notice: Undefined property: User_manager_controller::$get_filename IN G:\xampp\htdocs\standingo\application\controller\user_manager.php ON LINE 32
+[10:37 AM Nov 19 2011] Notice: Undefined property: User_manager_controller::$get_filename IN G:\xampp\htdocs\standingo\application\controller\user_manager.php ON LINE 32
+[10:38 AM Nov 19 2011] Notice: Undefined property: User_manager_controller::$get_filename IN G:\xampp\htdocs\standingo\application\controller\user_manager.php ON LINE 32
+[10:45 AM Nov 19 2011] Notice: Undefined variable: page_title IN G:\xampp\htdocs\standingo\application\view\home.php ON LINE 1
+[10:45 AM Nov 19 2011] Warning: The requested view (application/view/templates/header.php) could not be found. IN current file ON LINE (unknown)
+[10:45 AM Nov 19 2011] Notice: Undefined variable: username IN G:\xampp\htdocs\standingo\application\view\home.php ON LINE 12
+[10:45 AM Nov 19 2011] Notice: Use of undefined constant SCRIPT - assumed 'SCRIPT' IN G:\xampp\htdocs\standingo\application\view\home.php ON LINE 13
+[10:46 AM Nov 19 2011] Notice: Undefined variable: username IN G:\xampp\htdocs\standingo\application\view\home.php ON LINE 12
+[10:46 AM Nov 19 2011] Notice: Use of undefined constant SCRIPT - assumed 'SCRIPT' IN G:\xampp\htdocs\standingo\application\view\home.php ON LINE 13
+[10:46 AM Nov 19 2011] Notice: Use of undefined constant SCRIPT - assumed 'SCRIPT' IN G:\xampp\htdocs\standingo\application\view\home.php ON LINE 13
+[11:03 AM Nov 19 2011] Notice: Use of undefined constant SCRIPT - assumed 'SCRIPT' IN G:\xampp\htdocs\standingo\application\view\home.php ON LINE 13
+[11:04 AM Nov 19 2011] Notice: Undefined variable: file IN G:\xampp\htdocs\standingo\application\controller\user_manager.php ON LINE 25
+[11:04 AM Nov 19 2011] Warning: file() [<a href='function.file'>function.file</a>]: Filename cannot be empty IN G:\xampp\htdocs\standingo\application\controller\user_manager.php ON LINE 96
+[11:04 AM Nov 19 2011] Notice: Undefined offset: 2 IN G:\xampp\htdocs\standingo\application\controller\user_manager.php ON LINE 105
+[11:05 AM Nov 19 2011] Notice: Use of undefined constant SCRIPT - assumed 'SCRIPT' IN G:\xampp\htdocs\standingo\application\view\home.php ON LINE 13
+[12:08 PM Nov 19 2011] Notice: Use of undefined constant login - assumed 'login' IN G:\xampp\htdocs\standingo\application\controller\user_manager.php ON LINE 34
+[12:08 PM Nov 19 2011] Warning: The requested view (application/view/login.php) could not be found. IN current file ON LINE (unknown)
+[12:09 PM Nov 19 2011] Warning: The requested view (application/view/login.php) could not be found. IN current file ON LINE (unknown)
+[12:44 PM Nov 19 2011] Notice: Undefined variable: username IN G:\xampp\htdocs\standingo\application\controller\user_manager.php ON LINE 67
+[12:44 PM Nov 19 2011] Notice: Undefined variable: password IN G:\xampp\htdocs\standingo\application\controller\user_manager.php ON LINE 68
+[12:44 PM Nov 19 2011] Notice: Undefined offset: 2 IN G:\xampp\htdocs\standingo\application\controller\user_manager.php ON LINE 79
+[12:49 PM Nov 19 2011] Notice: Undefined variable: username IN G:\xampp\htdocs\standingo\application\controller\user_manager.php ON LINE 67
+[12:49 PM Nov 19 2011] Notice: Undefined offset: 2 IN G:\xampp\htdocs\standingo\application\controller\user_manager.php ON LINE 79
+[12:51 PM Nov 19 2011] Notice: Undefined variable: username IN G:\xampp\htdocs\standingo\application\controller\user_manager.php ON LINE 67
+[12:51 PM Nov 19 2011] Notice: Undefined offset: 2 IN G:\xampp\htdocs\standingo\application\controller\user_manager.php ON LINE 79
+[12:53 PM Nov 19 2011] Notice: Undefined variable: username IN G:\xampp\htdocs\standingo\application\controller\user_manager.php ON LINE 67
+[12:53 PM Nov 19 2011] Notice: Undefined offset: 2 IN G:\xampp\htdocs\standingo\application\controller\user_manager.php ON LINE 79
+[12:55 PM Nov 19 2011] Notice: Undefined variable: username IN G:\xampp\htdocs\standingo\application\controller\user_manager.php ON LINE 67
+[12:55 PM Nov 19 2011] Notice: Undefined variable: password IN G:\xampp\htdocs\standingo\application\controller\user_manager.php ON LINE 68
+[12:55 PM Nov 19 2011] Notice: Undefined offset: 2 IN G:\xampp\htdocs\standingo\application\controller\user_manager.php ON LINE 79
+[1:00 PM Nov 19 2011] Warning: Missing argument 1 for User_manager_controller::validate_user() IN G:\xampp\htdocs\standingo\application\controller\user_manager.php ON LINE 37
+[1:00 PM Nov 19 2011] Warning: Missing argument 2 for User_manager_controller::validate_user() IN G:\xampp\htdocs\standingo\application\controller\user_manager.php ON LINE 37
+[1:00 PM Nov 19 2011] Notice: Undefined variable: username IN G:\xampp\htdocs\standingo\application\controller\user_manager.php ON LINE 40
+[1:00 PM Nov 19 2011] Notice: Undefined variable: password IN G:\xampp\htdocs\standingo\application\controller\user_manager.php ON LINE 40
+[1:00 PM Nov 19 2011] Notice: Undefined variable: username IN G:\xampp\htdocs\standingo\application\controller\user_manager.php ON LINE 45
+[1:00 PM Nov 19 2011] Notice: Use of undefined constant SCRIPT - assumed 'SCRIPT' IN G:\xampp\htdocs\standingo\application\view\home.php ON LINE 13
+[1:07 PM Nov 19 2011] Notice: Undefined variable: username IN G:\xampp\htdocs\standingo\application\controller\user_manager.php ON LINE 42
+[1:07 PM Nov 19 2011] Notice: Undefined variable: password IN G:\xampp\htdocs\standingo\application\controller\user_manager.php ON LINE 42
+[1:07 PM Nov 19 2011] Notice: Undefined variable: username IN G:\xampp\htdocs\standingo\application\controller\user_manager.php ON LINE 47
+[1:07 PM Nov 19 2011] Notice: Use of undefined constant SCRIPT - assumed 'SCRIPT' IN G:\xampp\htdocs\standingo\application\view\home.php ON LINE 13
+[1:07 PM Nov 19 2011] Notice: Undefined variable: password IN G:\xampp\htdocs\standingo\application\controller\user_manager.php ON LINE 42
+[1:07 PM Nov 19 2011] Notice: Undefined offset: 2 IN G:\xampp\htdocs\standingo\application\controller\user_manager.php ON LINE 81
+[1:08 PM Nov 19 2011] Notice: Undefined offset: 2 IN G:\xampp\htdocs\standingo\application\controller\user_manager.php ON LINE 81
+[1:08 PM Nov 19 2011] Notice: Use of undefined constant SCRIPT - assumed 'SCRIPT' IN G:\xampp\htdocs\standingo\application\view\home.php ON LINE 13
+[1:12 PM Nov 19 2011] Notice: Undefined offset: 2 IN G:\xampp\htdocs\standingo\application\controller\user_manager.php ON LINE 81
+[1:12 PM Nov 19 2011] Notice: Use of undefined constant SCRIPT - assumed 'SCRIPT' IN G:\xampp\htdocs\standingo\application\view\home.php ON LINE 13
+[1:14 PM Nov 19 2011] Notice: Undefined offset: 2 IN G:\xampp\htdocs\standingo\application\controller\user_manager.php ON LINE 83
+[1:14 PM Nov 19 2011] Notice: Use of undefined constant SCRIPT - assumed 'SCRIPT' IN G:\xampp\htdocs\standingo\application\view\home.php ON LINE 13
+[1:15 PM Nov 19 2011] Notice: Undefined offset: 2 IN G:\xampp\htdocs\standingo\application\controller\user_manager.php ON LINE 83
+[1:15 PM Nov 19 2011] Notice: Use of undefined constant SCRIPT - assumed 'SCRIPT' IN G:\xampp\htdocs\standingo\application\view\home.php ON LINE 13
+[1:22 PM Nov 19 2011] Notice: Use of undefined constant SCRIPT - assumed 'SCRIPT' IN G:\xampp\htdocs\standingo\application\view\home.php ON LINE 13
+[8:35 PM Nov 19 2011] Notice: Undefined variable: file IN G:\xampp\htdocs\standingo\application\controller\user_manager.php ON LINE 135
+[8:35 PM Nov 19 2011] Warning: fwrite() expects parameter 1 to be resource, null given IN G:\xampp\htdocs\standingo\application\controller\user_manager.php ON LINE 135
+[8:38 PM Nov 19 2011] Warning: fwrite() expects parameter 1 to be resource, string given IN G:\xampp\htdocs\standingo\application\controller\user_manager.php ON LINE 135
+[8:58 PM Nov 19 2011] Notice: Undefined variable: session_name IN G:\xampp\htdocs\standingo\application\view\welcome.php ON LINE 13
+[9:16 AM Nov 21 2011] Notice: Undefined property: User_manager_controller::$user_manger IN J:\xampp\htdocs\standingo\application\controller\user_manager.php ON LINE 43
+[9:22 AM Nov 21 2011] Notice: Undefined variable: data IN J:\xampp\htdocs\standingo\application\controller\user_manager.php ON LINE 43
+[9:26 AM Nov 21 2011] Notice: Undefined variable: user_manager IN J:\xampp\htdocs\standingo\application\controller\user_manager.php ON LINE 43
+[9:27 AM Nov 21 2011] Notice: Undefined property: User_manager_model::$file IN J:\xampp\htdocs\standingo\application\model\user_manager.php ON LINE 12
+[9:27 AM Nov 21 2011] Warning: file() [<a href='function.file'>function.file</a>]: Filename cannot be empty IN J:\xampp\htdocs\standingo\application\model\user_manager.php ON LINE 12
+[9:27 AM Nov 21 2011] Notice: Undefined offset: 2 IN J:\xampp\htdocs\standingo\application\model\user_manager.php ON LINE 21
+[7:28 AM Nov 22 2011] Warning: The requested view (application/view/register.php) could not be found. IN current file ON LINE (unknown)
+[3:24 PM Nov 22 2011] Notice: Undefined offset: 2 IN G:\xampp\htdocs\standingo\application\model\user_manager.php ON LINE 23
+[3:24 PM Nov 22 2011] Warning: The requested view (application/view/register.php) could not be found. IN current file ON LINE (unknown)
+[3:24 PM Nov 22 2011] Notice: Undefined variable: registered IN G:\xampp\htdocs\standingo\application\controller\user_manager.php ON LINE 105
+[3:24 PM Nov 22 2011] Notice: A session had already been started - ignoring session_start() IN G:\xampp\htdocs\standingo\application\view\welcome.php ON LINE 2
+[3:25 PM Nov 22 2011] Notice: Undefined variable: message IN G:\xampp\htdocs\standingo\application\view\welcome.php ON LINE 12
+[3:25 PM Nov 22 2011] Notice: Undefined variable: registered IN G:\xampp\htdocs\standingo\application\controller\user_manager.php ON LINE 105
+[3:25 PM Nov 22 2011] Notice: A session had already been started - ignoring session_start() IN G:\xampp\htdocs\standingo\application\view\welcome.php ON LINE 2
+[3:26 PM Nov 22 2011] Notice: Undefined offset: 2 IN G:\xampp\htdocs\standingo\application\model\user_manager.php ON LINE 23
+[3:26 PM Nov 22 2011] Notice: Undefined variable: message IN G:\xampp\htdocs\standingo\application\view\welcome.php ON LINE 12

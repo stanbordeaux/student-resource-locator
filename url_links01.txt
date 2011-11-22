@@ -1,0 +1,15 @@
+theage.com.au,The Age On-line,News,1284939639,7
+portadelaidefc.com.au,Port Adelaide Power,Sports,1284945380,1
+weberdev.com,Web Development,Web Design,1284946593,2
+css-tricks.com,CSS Tricks,Web Design,1284952226,2
+footytips.com.au,Footy Tipping,Sports,1284955125,0
+abc.net.au/grandstand,ABC Grandstand,Sports,1285742117,2
+swinburne.edu.au,Swinburne Uni,Education,1285742500,3
+groupwise.swin.edu.au/gw/webacc,Groupwise Email,Education,1286239243,2
+youtube.com,video,Education,1318560935,1
+smashingmagazine.com,Smashing Magazine,Multi Media,1320370089,2
+flinders.edu.au,Flinders University,Education,1320370116,1
+nettuts.com,Nettuts+,Web Development,1320640818,1
+scipttiny.com,Script Tiny,Web Development,1320640923,0
+amazon.com,Amazon,Books,1320641122,1
+hard-light.net,HLP,Gaming,1320643774,1

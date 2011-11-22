@@ -1,0 +1,14 @@
+tilly, tilly.cat@gmail.com, tillbo
+henny, henny.penny@gmail.com, henpen
+frankie, franks@email.com, frankie
+elroy, elroy@gmail.com, roy
+pearl, pearl@mail.com, pearl
+joe, joe@email.com, joe
+fred, fred@somemail.com, fred
+freddy, freddy@republic.com, freddy
+jane, jane@email.com, jane
+dickface, stan.bordeaux@gmail.com, dickface
+stan, stan.bordeaux@gmail.com, stan
+jill, jill@thehill.com, jill
+, , 
+mack, mack@theknife.com, mack

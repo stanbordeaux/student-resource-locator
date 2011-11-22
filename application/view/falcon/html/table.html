@@ -1,0 +1,232 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<title>Falcon Admin</title>
+		<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+		<!-- base stylesheets -->
+		<link rel="stylesheet" type="text/css" href="resources/css/960/reset.css" />
+		<link rel="stylesheet" type="text/css" href="resources/css/960/grid.css" />
+		<!-- theme stylesheets -->
+		<link rel="stylesheet" type="text/css" href="resources/css/text.css" />
+		<link rel="stylesheet" type="text/css" href="resources/css/default.css" media="screen, projection" />
+		<!-- scripts (jquery) -->
+		<script src="resources/scripts/jquery-1.4.2.min.js" type="text/javascript"></script>
+		<script src="resources/scripts/jquery-ui-1.8.custom.min.js" type="text/javascript"></script>
+		<script src="resources/scripts/jquery.ui.selectmenu.js" type="text/javascript"></script>
+		<!-- scripts (custom) -->
+		<script src="resources/scripts/falcon.js" type="text/javascript"></script>
+		<script type="text/javascript">
+			$(document).ready(function () {
+				$("input:submit, input:reset").button();
+				$("select").selectmenu({
+					style: 'dropdown',
+					width: 200,
+					menuWidth: 200,
+					icons: [
+						{ find: '.locked', icon: 'ui-icon-locked' },
+						{ find: '.unlocked', icon: 'ui-icon-unlocked' },
+						{ find: '.folder-open', icon: 'ui-icon-folder-open' }
+					]
+				});
+			});
+		</script>
+	</head>
+	<body>
+		<!-- container -->
+		<div class="container_24">
+			<!-- header -->
+			<div id="header">
+				<!-- logo -->
+				<div id="logo" class="grid_12">
+					<a href=""><img src="resources/images/logo.png" alt="Falcon Admin" title="Falcon Admin" /></a>
+				</div>
+				<!-- end logo -->
+				<!-- dashboard -->
+				<div id="dashboard" class="grid_12">
+					<div class="menu">
+						<ul>
+							<li><a href="">John Smith</a> |</li>
+							<li><a href="">Account</a> |</li>
+							<li><a href="">Messages (0)</a> |</li>
+							<li><a href="">Logout</a></li>
+						</ul>
+					</div>
+				</div>
+				<!-- end dashboard -->
+			</div>
+			<!-- end header -->
+			<!-- quick buttons / links -->
+			<div id="quick" class="grid_24">
+				<ul>
+					<li><a href="start.html" class="home"></a></li>
+					<li><a href="table.html" class="articles"></a></li>
+					<li><a href="table.html" class="users"></a></li>
+					<li><a href="table.html" class="downloads"></a></li>
+					<li><a href="table.html" class="events"></a></li>
+					<li><a href="table.html" class="links"></a></li>
+					<li><a href="table.html" class="settings"></a></li>
+				</ul>
+			</div>
+			<!-- end quick -->
+			<!-- content -->
+			<div id="content" class="grid_24">
+				<div id="content-inner">
+					<!-- left -->
+					<div id="left" class="grid_6">
+						<!-- menu -->
+						<ul id="menu">
+							<li>
+								<h6><a href="#examples"><span>Examples</span><span class="icon-minus"></span></a></h6>
+								<ul id="menu_examples">
+									<li><a href="form.html">Forms</a></li>
+									<li><a href="table.html">Tables</a></li>
+									<li><a href="content.html">Content Boxes</a></li>
+									<li class="last"><a href="typography.html">Typography</a></li>
+								</ul>
+							</li>
+							<li>
+								<h6><a href="#articles"><span>Articles</span><span class="icon-minus"></span></a></h6>
+								<ul id="menu_articles">
+									<li><a href="">New Article</a></li>
+									<li><a href="">Browse Articles</a></li>
+									<li class="last"><a href="">Browse Drafts</a></li>
+								</ul>
+							</li>
+							<li>
+								<h6><a href="#users"><span>Users</span><span class="icon-minus"></span></a></h6>
+								<ul id="menu_users">
+									<li><a href="">New User</a></li>
+									<li class="last"><a href="">Browse Users</a></li>
+								</ul>
+							</li>
+							<li>
+								<h6><a href="#downloads"><span>Downloads</span><span class="icon-minus"></span></a></h6>
+								<ul id="menu_downloads">
+									<li><a href="">New Download</a></li>
+									<li class="last"><a href="">Browse Downloads</a></li>
+								</ul>
+							</li>
+							<li>
+								<h6><a href="#events"><span>Events</span><span class="icon-minus"></span></a></h6>
+								<ul id="menu_events">
+									<li><a href="">New Event</a></li>
+									<li class="last"><a href="">Browse Events</a></li>
+								</ul>
+							</li>
+							<li>
+								<h6><a href="#settings"><span>Settings</span><span class="icon-minus"></span></a></h6>
+								<ul id="menu_settings">
+									<li class="last"><a href="">Manage Settings</a></li>
+								</ul>
+							</li>
+						</ul>
+						<!-- end menu -->
+					</div>
+					<!-- end left -->
+					<!-- right -->
+					<div id="right"  class="grid_18">
+						<div class="title">
+							<h4>Articles</h4>
+							<div class="button">
+								<a href="form.html">Create Article</a>
+							</div>
+						</div>
+						<div class="table">
+							<form action="" method="post">
+								<table cellspacing="0">
+									<thead>
+										<tr>
+											<th class="left">Title</th>
+											<th>Author</th>
+											<th>Published</th>
+											<th></th>
+											<th class="selected"><input type="checkbox" class="check-group" /></th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td class="title">Article 1</td>
+											<td class="author">John Smith</td>
+											<td class="date">May 17th at 11:19 AM</td>
+											<td class="edit"><a href="">Edit</a></td>
+											<td class="selected"><input type="checkbox" name="Selected" class="check-item" /></td>
+										</tr>
+										<tr class="alt">
+											<td class="title">Article 2</td>
+											<td class="author">John Smith</td>
+											<td class="date">May 17th at 9:00 AM</td>
+											<td class="edit"><a href="">Edit</a></td>
+											<td class="selected"><input type="checkbox" name="Selected" class="check-item" /></td>
+										</tr>
+										<tr>
+											<td class="title">Article 3</td>
+											<td class="author">John Smith</td>
+											<td class="date">May 17th at 8:04 AM</td>
+											<td class="edit"><a href="">Edit</a></td>
+											<td class="selected"><input type="checkbox" name="Selected" class="check-item" /></td>
+										</tr>
+										<tr class="alt">
+											<td class="title">Article 4</td>
+											<td class="author">John Smith</td>
+											<td class="date">May 16th at 2:45 PM</td>
+											<td class="edit"><a href="">Edit</a></td>
+											<td class="selected"><input type="checkbox" name="Selected" class="check-item" /></td>
+										</tr>
+										<tr>
+											<td class="title">Article 5</td>
+											<td class="author">John Smith</td>
+											<td class="date">May 16th at 1:02 PM</td>
+											<td class="edit"><a href="">Edit</a></td>
+											<td class="selected"><input type="checkbox" name="Selected" class="check-item" /></td>
+										</tr>
+									</tbody>
+								</table>
+								<!-- table action -->
+								<div class="action">
+									<select name="action">
+										<option value="" class="locked">Set status to Deleted</option>
+										<option value="" class="unlocked">Set status to Published</option>
+										<option value="" class="folder-open">Move to Folder</option>
+									</select>
+									<div class="button">
+										<input type="submit" name="submit" value="Apply to Selected" class="check-submit" />
+									</div>
+								</div>
+								<!-- end table action -->
+								<!-- pagination -->
+								<div class="pagination">
+									<div class="results">
+										<span>showing results 1-10 of 207</span>
+									</div>
+									<ul class="pager">
+										<li class="disabled">&laquo; prev</li>
+										<li class="current">1</li>
+										<li><a href="">2</a></li>
+										<li><a href="">3</a></li>
+										<li><a href="">4</a></li>
+										<li><a href="">5</a></li>
+										<li class="separator">...</li>
+										<li><a href="">20</a></li>
+										<li><a href="">21</a></li>
+										<li><a href="">next &raquo;</a></li>
+									</ul>
+								</div>
+								<!-- end pagination -->
+							</form>
+						</div>
+						<!-- end table -->
+					</div>
+					<!-- end right -->
+				</div>
+			</div>
+			<!-- end content -->
+			<!-- footer -->
+			<div id="footer" class="grid_24">
+				<div class="icon"></div>
+			</div>
+			<!-- end footer -->
+			<div class="clear"></div>
+		</div>
+		<!-- end container -->
+	</body>
+</html>

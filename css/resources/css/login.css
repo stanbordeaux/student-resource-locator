@@ -1,0 +1,282 @@
+body
+{
+	margin: 160px 0 0 0;
+	padding: 0;
+	background: #2E3837;
+	color: #FFFFFF;
+}
+
+img
+{
+	border: none;    
+}
+
+form
+{
+	margin: 0;
+	padding: 0;	
+}
+
+a
+{
+	color: #0066CC;
+	text-decoration: none;	
+}
+
+a:hover
+{
+	color: #000000;
+	text-decoration: underline;	
+}
+
+/* -----------------------------------------------------------
+	headings
+----------------------------------------------------------- */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6
+{
+	margin: 0 auto;
+	padding: 10px;
+    width: 400px;
+	background: #384241;
+	color: #FFFFFF;
+}
+
+/* -----------------------------------------------------------
+	login
+----------------------------------------------------------- */
+
+#login
+{
+    margin: 0 auto;
+    padding: 20px;
+    width: 380px;
+	background: #FFFFFF url("../../resources/images/login.png") no-repeat top left;
+    border-top: none;
+    border-bottom: none;
+}
+
+/* -----------------------------------------------------------
+	login -> form
+----------------------------------------------------------- */
+
+#login div.form
+{
+    margin: 0;
+    padding: 0;
+    clear: both;
+    overflow: hidden;
+}
+
+#login div.form div.fields
+{
+	margin: 0;
+	padding: 0;
+    clear: both;
+    overflow: hidden;
+}
+
+#login div.form div.fields div.field
+{
+	margin: 0;
+	padding: 0 0 10px 0; 
+	clear: both;
+	overflow: hidden;
+}
+
+#login div.form div.fields div.field span.error
+{
+	margin: 8px 0 0 0;
+	padding: 0;
+	height: 1%;
+	display: block;
+	color: #FF0000;
+}
+
+#login div.form div.fields div.field div.label
+{
+	margin: 2px 10px 0 0;
+	padding: 5px 0 0 5px;
+	width: 173px;
+	float: left;
+    text-align: right;
+}
+
+#login div.form div.fields div.field div.label label
+{
+    color: #000000;
+    font-weight: bold;
+}
+
+#login  div.form div.fields div.field div.label span
+{
+	margin: 0;
+	padding: 2px 0 0 0;
+	height: 1%;
+	display: block;
+	color: #363636;
+}
+
+#login div.form div.fields div.field div.input
+{
+	margin: 0;
+	padding: 0;
+	float: left;
+}
+
+#login div.form div.fields div.field div.input input
+{
+    margin: 0;
+    padding: 5px 5px 4px 5px;
+    width: 180px;
+    background: #FFFFFF;
+    border: 1px solid #C8C8C8;
+    color: #000000;
+}
+
+#login div.form div.fields div.field div.input input.error
+{
+    padding: 5px 5px 4px 23px;
+    width: 162px;
+	background: #FBE3E4 url("../../resources/images/icons/exclamation.png") no-repeat 3px center;
+    border: 1px solid #FBC2C4;
+}
+
+#login div.form div.fields div.field div.input input.success
+{
+    padding: 5px 5px 4px 23px;
+    width: 162px;
+	background: #E6EFC2 url("../../resources/images/icons/accept.png") no-repeat 3px center;
+    border: 1px solid #C6D880;
+}
+
+#login div.form div.fields div.field div.input div.link
+{
+	margin: 6px 0 0 0;
+	padding: 0;
+	text-align: right;
+}
+
+#login div.form div.fields div.field div.checkbox
+{
+	margin: 0 0 0 184px;
+	padding: 0;
+}
+
+#login div.form div.fields div.field div.checkbox label
+{
+    color: #565656;
+    font-weight: bold;
+}
+
+#login div.form div.fields div.buttons
+{
+	margin: 0;
+	padding: 10px 0 0 0;
+	clear: both;
+	overflow: hidden;
+	border-top: 1px solid #DDDDDD;
+	text-align: right;
+}
+
+#login div.form div.fields div.buttons input
+{
+	margin: 0;
+    color: #000000;
+	font-size: 1.0em; 
+    font-weight: bold;
+	font-family: Verdana, Helvetica, Sans-Serif; 
+}
+
+#login div.form div.fields div.buttons input.ui-state-default
+{
+    background: #F5F5F5;
+	color: #565656;
+}
+
+#login div.form div.fields div.buttons input.ui-state-hover
+{
+	border: 1px solid #FBCB09; 
+	background: #fdf5ce url(../../resources/images/ui/ui-bg_glass_100_fdf5ce_1x400.png) 50% 50% repeat-x; 
+	color: #C77405;
+}
+
+/* -----------------------------------------------------------
+	login -> links
+----------------------------------------------------------- */
+
+#login div.form div.links
+{
+	margin: 10px 0 0 0;
+	padding: 0;
+    clear: both;
+    overflow: hidden;
+}
+
+/* -----------------------------------------------------------
+	jquery ui
+----------------------------------------------------------- */
+
+/* Layout helpers
+----------------------------------*/
+.ui-helper-hidden { display: none; }
+.ui-helper-hidden-accessible { position: absolute; left: -99999999px; }
+
+/* states and images */
+.ui-icon { display: block; text-indent: -99999px; overflow: hidden; background-repeat: no-repeat; }
+
+/* Interaction states
+----------------------------------*/
+.ui-state-default, .ui-widget-content .ui-state-default  
+{
+    border: 1px solid #DDDDDD; 
+    background: #FFFFFF;
+    color: #444444;
+}
+
+.ui-state-default, .ui-widget-content .ui-state-default { border: 1px solid #cccccc; background: #FFFFFF; color: #1C94C4; }
+.ui-state-default a, .ui-state-default a:link, .ui-state-default a:visited { color: #1C94C4; text-decoration: none; }
+.ui-state-hover, .ui-widget-content .ui-state-hover, .ui-state-focus, .ui-widget-content .ui-state-focus { border: 1px solid #fbcb09; background: #fdf5ce url(../../resources/images/ui/ui-bg_glass_100_fdf5ce_1x400.png) 50% 50% repeat-x; color: #C77405; }
+.ui-state-hover a, .ui-state-hover a:hover { color: #C77405; text-decoration: none; }
+.ui-state-active, .ui-widget-content .ui-state-active { border: 1px solid #fbd850; background: #ffffff url(../../resources/images/ui/ui-bg_glass_65_ffffff_1x400.png) 50% 50% repeat-x; color: #eb8f00; }
+.ui-state-active a, .ui-state-active a:link, .ui-state-active a:visited { color: #eb8f00; text-decoration: none; }
+.ui-widget :active { outline: none; }
+
+/* Interaction Cues
+----------------------------------*/
+.ui-state-highlight, .ui-widget-content .ui-state-highlight {border: 1px solid #fed22f; background: #ffe45c url(../../resources/images/ui/ui-bg_highlight-soft_75_ffe45c_1x100.png) 50% top repeat-x; color: #363636; }
+.ui-state-highlight a, .ui-widget-content .ui-state-highlight a { color: #363636; }
+.ui-state-error, .ui-widget-content .ui-state-error {border: 1px solid #cd0a0a; background: #b81900 url(../../resources/images/ui/ui-bg_diagonals-thick_18_b81900_40x40.png) 50% 50% repeat; color: #ffffff; }
+.ui-state-error a, .ui-widget-content .ui-state-error a { color: #ffffff; }
+.ui-state-error-text, .ui-widget-content .ui-state-error-text { color: #ffffff; }
+.ui-state-disabled, .ui-widget-content .ui-state-disabled { background-image: none; }
+
+.ui-button { display: inline-block; position: relative; padding: 0; margin-right: .1em; text-decoration: none !important; cursor: pointer; text-align: center; overflow: visible; } /* the overflow property removes extra width in IE */
+.ui-button-icon-only { width: 2.2em; } /* to make room for the icon, a width needs to be set here */
+button.ui-button-icon-only { width: 2.4em; } /* button elements seem to need a little more width */
+.ui-button-icons-only { width: 3.4em; } 
+button.ui-button-icons-only { width: 3.7em; } 
+
+/*button text element */
+.ui-button .ui-button-text { display: block; line-height: 1.4;  }
+.ui-button-text-only .ui-button-text { padding: .4em 1em; }
+.ui-button-icon-only .ui-button-text, .ui-button-icons-only .ui-button-text { padding: .4em; text-indent: -9999999px; }
+.ui-button-text-icon .ui-button-text, .ui-button-text-icons .ui-button-text { padding: .4em 1em .4em 2.1em; }
+.ui-button-text-icons .ui-button-text { padding-left: 2.1em; padding-right: 2.1em; }
+/* no icon support for input elements, provide padding by default */
+input.ui-button { padding: .4em 1em; }
+
+/*button icon element(s) */
+.ui-button-icon-only .ui-icon, .ui-button-text-icon .ui-icon, .ui-button-text-icons .ui-icon, .ui-button-icons-only .ui-icon { position: absolute; top: 50%; margin-top: -8px; }
+.ui-button-icon-only .ui-icon { left: 50%; margin-left: -8px; }
+.ui-button-text-icon .ui-button-icon-primary, .ui-button-text-icons .ui-button-icon-primary, .ui-button-icons-only .ui-button-icon-primary { left: .5em; }
+.ui-button-text-icons .ui-button-icon-secondary, .ui-button-icons-only .ui-button-icon-secondary { right: .5em; }
+
+/*button sets*/
+.ui-buttonset { margin-right: 7px; }
+.ui-buttonset .ui-button { margin-left: 0; margin-right: -.3em; }
