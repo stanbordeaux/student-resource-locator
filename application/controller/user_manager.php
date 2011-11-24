@@ -12,6 +12,7 @@ class User_manager_controller
     
     private $username;
     private $password;
+    public $style_file = 'style.css';
     private $file      = 'members.txt';
     private $email;
     private $valid     = false;
@@ -32,28 +33,30 @@ class User_manager_controller
         //echo $this->file;
         //echo $this->get_filename .'<br>';
         //$this->validate_user('joe', 'joe');
+       
         load::view('login');
     }
 
     public function validate_user()
     {
         $user_manager = load::model('user_manager');
-        $username = input::post('username');
-        $password = input::post('password');
-
-        $logged_in = $user_manager->log_in($username, $password);
+        $username     = input::post('username');
+        $password     = input::post('password');
+        $logged_in    = $user_manager->log_in($username, $password);
+        
         if ($logged_in)
         {
             //header('Location: welcome.php');
             //$data['user'] = 'stan';
             $this->username = $username;
             $this->password = $password;
-            load::view('welcome', array('username' => $username));
+            $data['username'] = $this->username;
+            $data['style'] = $this->style_file;
+            load::view('index', $data);
         }
         else
         {
             
-            load::view('register');
         }
 
     }
@@ -92,25 +95,25 @@ class User_manager_controller
     public function register()
     {
         //initialise vars
-        session_start();
-
         $username = input::post('username');
         $email    = input::post('email');
         $password = input::post('password');
         
         $user_manager = load::model('user_manager');
 
-        $data['message'] = $user_manager->add_user($username, $email, $password);
+        $registered = $user_manager->add_user($username, $email, $password);
         if ($registered)
         {
-            $data['username'] = $_SESSION['username'];
+            $data['username'] = $username;
+            url::page('links/add_link', $data);
         }
         else
         {
-            
+            $data['message'] = "username taken please choose another one.";
+            load::view('register_frm', $data);
         }
 
-        load::view('welcome', $data);
+        
     }
 
 

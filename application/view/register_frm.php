@@ -2,9 +2,9 @@
 <div>
  <h1>Register here</h1>
  <?php 
-    if (isset($result))
+    if (isset($message))
     {
-        echo "<p><span style='color: red; font-weight: bold;'>" .$result. "</span></p>";
+        echo "<p><span style='color: red; font-weight: bold;'>" .$message. "</span></p>";
     }
  ?>
  <form action="<?php echo url::page('user_manager/register');?>" method="post" id="login_form">

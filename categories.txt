@@ -1,0 +1,7 @@
+education, Education
+web_design, Web Design
+web_development, Web Development
+multi_media, Multi Media
+social_networking, Social Networking
+books, Books
+gaming, Gaming

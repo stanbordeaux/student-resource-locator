@@ -51,9 +51,9 @@ class User_manager_model {
         else
         {
             //if users already registered check for duplicate usernames
-            $result = $this->check_username($username);
+            $username_taken = $this->check_username($username);
               
-            if ($result)
+            if ($username_taken)
             {
                 $registered = false;
 
@@ -87,16 +87,16 @@ class User_manager_model {
             if ($temp[0] == $username)
             {
                 //$this->found = true;
-                $result = true;
+                $username_taken = true;
                 break;
             }
             else
             {
-                $result = false;
+                $username_taken = false;
             }
         }
 
-        return $result;
+        return $username_taken;
     }      
      
 }

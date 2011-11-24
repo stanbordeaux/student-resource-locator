@@ -1,15 +1,16 @@
-.mytable {
-    width: 50%;
-    border:  1px solid #000;
-    
+body {
+	margin: 0;
+	padding: 0;
 }
-
-
-
-.mytable th {
-    text-align: left;
-    background-color: #fff;
+#container {
+	width: 960px;
+	margin-top: -40px;
+	margin: 0 auto;
+	padding: 20px 20px;
+	-webkit-box-shadow: 0px 0px 3px 5px #ccc;
+	-moz-box-shadow: 0px 0px 3px 5px #ccc;
+	box-shadow: 0px 0px 3px 5px #ccc; 
+	min-height: 1600px;
 }
-.mytable .odd {
-    background-color: #666;
-}
+.right {
+	float: right;

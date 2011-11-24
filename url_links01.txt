@@ -13,3 +13,4 @@ nettuts.com,Nettuts+,Web Development,1320640818,1
 scipttiny.com,Script Tiny,Web Development,1320640923,0
 amazon.com,Amazon,Books,1320641122,1
 hard-light.net,HLP,Gaming,1320643774,1
+adelaidenow.com.au,Adelaide Advertiser,Multi Media,1322133497,0

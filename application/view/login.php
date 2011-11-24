@@ -6,9 +6,10 @@
 	
 	<div>
 	<?php 
-		if (isset($result))
+		
+		if (isset($message))
 		{
-			echo $result.'<br>';
+			echo'Please select another user name<br>';
 		}
 
 

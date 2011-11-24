@@ -10,5 +10,4 @@ jane, jane@email.com, jane
 dickface, stan.bordeaux@gmail.com, dickface
 stan, stan.bordeaux@gmail.com, stan
 jill, jill@thehill.com, jill
-, , 
 mack, mack@theknife.com, mack

@@ -70,3 +70,114 @@
 [3:25 PM Nov 22 2011] Notice: A session had already been started - ignoring session_start() IN G:\xampp\htdocs\standingo\application\view\welcome.php ON LINE 2
 [3:26 PM Nov 22 2011] Notice: Undefined offset: 2 IN G:\xampp\htdocs\standingo\application\model\user_manager.php ON LINE 23
 [3:26 PM Nov 22 2011] Notice: Undefined variable: message IN G:\xampp\htdocs\standingo\application\view\welcome.php ON LINE 12
+[9:57 AM Nov 23 2011] Notice: Undefined variable: registered IN E:\xampp\htdocs\standingo\application\controller\user_manager.php ON LINE 105
+[9:57 AM Nov 23 2011] Notice: A session had already been started - ignoring session_start() IN E:\xampp\htdocs\standingo\application\view\welcome.php ON LINE 2
+[9:57 AM Nov 23 2011] Notice: Undefined variable: message IN E:\xampp\htdocs\standingo\application\view\welcome.php ON LINE 12
+[10:03 AM Nov 23 2011] Notice: Undefined variable: registered IN E:\xampp\htdocs\standingo\application\controller\user_manager.php ON LINE 105
+[10:03 AM Nov 23 2011] Notice: A session had already been started - ignoring session_start() IN E:\xampp\htdocs\standingo\application\view\welcome.php ON LINE 2
+[10:06 AM Nov 23 2011] Notice: Undefined variable: registered IN E:\xampp\htdocs\standingo\application\controller\user_manager.php ON LINE 105
+[10:06 AM Nov 23 2011] Notice: A session had already been started - ignoring session_start() IN E:\xampp\htdocs\standingo\application\view\welcome.php ON LINE 2
+[10:07 AM Nov 23 2011] Notice: Undefined variable: registered IN E:\xampp\htdocs\standingo\application\controller\user_manager.php ON LINE 105
+[10:07 AM Nov 23 2011] Notice: A session had already been started - ignoring session_start() IN E:\xampp\htdocs\standingo\application\view\welcome.php ON LINE 2
+[10:11 AM Nov 23 2011] Notice: Undefined variable: registered IN E:\xampp\htdocs\standingo\application\controller\user_manager.php ON LINE 105
+[10:11 AM Nov 23 2011] Notice: A session had already been started - ignoring session_start() IN E:\xampp\htdocs\standingo\application\view\welcome.php ON LINE 2
+[10:46 AM Nov 23 2011] Notice: Undefined variable: data IN E:\xampp\htdocs\standingo\application\controller\user_manager.php ON LINE 118
+[10:46 AM Nov 23 2011] Notice: A session had already been started - ignoring session_start() IN E:\xampp\htdocs\standingo\application\view\welcome.php ON LINE 2
+[11:07 AM Nov 23 2011] Notice: Undefined index: username IN E:\xampp\htdocs\standingo\application\controller\user_manager.php ON LINE 111
+[11:07 AM Nov 23 2011] Notice: A session had already been started - ignoring session_start() IN E:\xampp\htdocs\standingo\application\view\welcome.php ON LINE 2
+[11:07 AM Nov 23 2011] Notice: Undefined variable: data IN E:\xampp\htdocs\standingo\application\controller\user_manager.php ON LINE 40
+[11:09 AM Nov 23 2011] Notice: Undefined index: username IN E:\xampp\htdocs\standingo\application\controller\user_manager.php ON LINE 111
+[11:09 AM Nov 23 2011] Notice: A session had already been started - ignoring session_start() IN E:\xampp\htdocs\standingo\application\view\welcome.php ON LINE 2
+[11:09 AM Nov 23 2011] Notice: Undefined variable: data IN E:\xampp\htdocs\standingo\application\controller\user_manager.php ON LINE 40
+[12:46 PM Nov 23 2011] Notice: Undefined variable: data IN J:\xampp\htdocs\standingo\application\controller\user_manager.php ON LINE 40
+[1:06 PM Nov 23 2011] Notice: Undefined variable: data IN J:\xampp\htdocs\standingo\application\controller\user_manager.php ON LINE 40
+[2:02 PM Nov 23 2011] Warning: The requested view (application/view/add_links_frm.php) could not be found. IN current file ON LINE (unknown)
+[2:04 PM Nov 23 2011] Warning: include(cats.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory IN J:\xampp\htdocs\standingo\application\view\forms\add_links_frm.php ON LINE 1
+[2:04 PM Nov 23 2011] Warning: include() [<a href='function.include'>function.include</a>]: Failed opening 'cats.php' for inclusion (include_path='.;\xampp\php\PEAR') IN J:\xampp\htdocs\standingo\application\view\forms\add_links_frm.php ON LINE 1
+[2:04 PM Nov 23 2011] Notice: Undefined variable: cats IN J:\xampp\htdocs\standingo\application\view\forms\add_links_frm.php ON LINE 16
+[2:04 PM Nov 23 2011] Notice: Undefined variable: cats IN J:\xampp\htdocs\standingo\application\view\forms\add_links_frm.php ON LINE 17
+[2:04 PM Nov 23 2011] Notice: Undefined variable: cats IN J:\xampp\htdocs\standingo\application\view\forms\add_links_frm.php ON LINE 17
+[2:04 PM Nov 23 2011] Notice: Undefined variable: cats IN J:\xampp\htdocs\standingo\application\view\forms\add_links_frm.php ON LINE 16
+[2:50 PM Nov 23 2011] Notice: Undefined variable: data IN J:\xampp\htdocs\standingo\application\controller\user_manager.php ON LINE 40
+[2:51 PM Nov 23 2011] Warning: The requested view (application/view/links/index.php) could not be found. IN current file ON LINE (unknown)
+[2:55 PM Nov 23 2011] Notice: Undefined variable: data IN J:\xampp\htdocs\standingo\application\controller\user_manager.php ON LINE 40
+[3:05 PM Nov 23 2011] Warning: include(cats.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory IN J:\xampp\htdocs\standingo\application\view\forms\add_links_frm.php ON LINE 1
+[3:05 PM Nov 23 2011] Warning: include() [<a href='function.include'>function.include</a>]: Failed opening 'cats.php' for inclusion (include_path='.;\xampp\php\PEAR') IN J:\xampp\htdocs\standingo\application\view\forms\add_links_frm.php ON LINE 1
+[3:05 PM Nov 23 2011] Notice: Undefined variable: cats IN J:\xampp\htdocs\standingo\application\view\forms\add_links_frm.php ON LINE 16
+[3:05 PM Nov 23 2011] Notice: Undefined variable: cats IN J:\xampp\htdocs\standingo\application\view\forms\add_links_frm.php ON LINE 17
+[3:05 PM Nov 23 2011] Notice: Undefined variable: cats IN J:\xampp\htdocs\standingo\application\view\forms\add_links_frm.php ON LINE 17
+[3:05 PM Nov 23 2011] Notice: Undefined variable: cats IN J:\xampp\htdocs\standingo\application\view\forms\add_links_frm.php ON LINE 16
+[3:12 PM Nov 23 2011] Warning: include(cats.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory IN J:\xampp\htdocs\standingo\application\view\forms\add_links_frm.php ON LINE 1
+[3:12 PM Nov 23 2011] Warning: include() [<a href='function.include'>function.include</a>]: Failed opening 'cats.php' for inclusion (include_path='.;\xampp\php\PEAR') IN J:\xampp\htdocs\standingo\application\view\forms\add_links_frm.php ON LINE 1
+[3:12 PM Nov 23 2011] Notice: Undefined variable: cats IN J:\xampp\htdocs\standingo\application\view\forms\add_links_frm.php ON LINE 16
+[3:12 PM Nov 23 2011] Notice: Undefined variable: cats IN J:\xampp\htdocs\standingo\application\view\forms\add_links_frm.php ON LINE 17
+[3:12 PM Nov 23 2011] Notice: Undefined variable: cats IN J:\xampp\htdocs\standingo\application\view\forms\add_links_frm.php ON LINE 17
+[3:12 PM Nov 23 2011] Notice: Undefined variable: cats IN J:\xampp\htdocs\standingo\application\view\forms\add_links_frm.php ON LINE 16
+[3:14 PM Nov 23 2011] Notice: Undefined variable: cats IN J:\xampp\htdocs\standingo\application\view\forms\add_links_frm.php ON LINE 11
+[3:14 PM Nov 23 2011] Notice: Undefined variable: cats IN J:\xampp\htdocs\standingo\application\view\forms\add_links_frm.php ON LINE 12
+[3:14 PM Nov 23 2011] Notice: Undefined variable: cats IN J:\xampp\htdocs\standingo\application\view\forms\add_links_frm.php ON LINE 12
+[3:14 PM Nov 23 2011] Notice: Undefined variable: cats IN J:\xampp\htdocs\standingo\application\view\forms\add_links_frm.php ON LINE 11
+[3:17 PM Nov 23 2011] Notice: Undefined variable: cats IN J:\xampp\htdocs\standingo\application\view\forms\add_links_frm.php ON LINE 11
+[3:17 PM Nov 23 2011] Notice: Undefined variable: cats IN J:\xampp\htdocs\standingo\application\view\forms\add_links_frm.php ON LINE 12
+[3:17 PM Nov 23 2011] Notice: Undefined variable: cats IN J:\xampp\htdocs\standingo\application\view\forms\add_links_frm.php ON LINE 12
+[3:17 PM Nov 23 2011] Notice: Undefined variable: cats IN J:\xampp\htdocs\standingo\application\view\forms\add_links_frm.php ON LINE 11
+[3:17 PM Nov 23 2011] Notice: Undefined variable: cats IN J:\xampp\htdocs\standingo\application\view\forms\add_links_frm.php ON LINE 11
+[3:17 PM Nov 23 2011] Notice: Undefined variable: cats IN J:\xampp\htdocs\standingo\application\view\forms\add_links_frm.php ON LINE 12
+[3:17 PM Nov 23 2011] Notice: Undefined variable: cats IN J:\xampp\htdocs\standingo\application\view\forms\add_links_frm.php ON LINE 12
+[3:17 PM Nov 23 2011] Notice: Undefined variable: cats IN J:\xampp\htdocs\standingo\application\view\forms\add_links_frm.php ON LINE 11
+[3:39 PM Nov 23 2011] Notice: Undefined variable: data IN J:\xampp\htdocs\standingo\application\controller\user_manager.php ON LINE 40
+[3:53 PM Nov 23 2011] Notice: Undefined variable: data IN J:\xampp\htdocs\standingo\application\controller\user_manager.php ON LINE 40
+[3:56 PM Nov 23 2011] Notice: Undefined variable: data IN J:\xampp\htdocs\standingo\application\controller\user_manager.php ON LINE 40
+[4:01 PM Nov 23 2011] Notice: Undefined variable: data IN G:\xampp\htdocs\standingo\application\controller\user_manager.php ON LINE 40
+[4:01 PM Nov 23 2011] Notice: Undefined variable: cats IN G:\xampp\htdocs\standingo\application\view\forms\add_links_frm.php ON LINE 11
+[4:01 PM Nov 23 2011] Notice: Undefined variable: cats IN G:\xampp\htdocs\standingo\application\view\forms\add_links_frm.php ON LINE 12
+[4:01 PM Nov 23 2011] Notice: Undefined variable: cats IN G:\xampp\htdocs\standingo\application\view\forms\add_links_frm.php ON LINE 12
+[4:01 PM Nov 23 2011] Notice: Undefined variable: cats IN G:\xampp\htdocs\standingo\application\view\forms\add_links_frm.php ON LINE 11
+[4:07 PM Nov 23 2011] Notice: Undefined variable: data IN G:\xampp\htdocs\standingo\application\controller\user_manager.php ON LINE 40
+[4:11 PM Nov 23 2011] Notice: Undefined variable: data IN G:\xampp\htdocs\standingo\application\controller\user_manager.php ON LINE 40
+[4:19 PM Nov 23 2011] Notice: Undefined variable: cats IN G:\xampp\htdocs\standingo\application\view\forms\add_links_frm.php ON LINE 11
+[4:19 PM Nov 23 2011] Notice: Undefined variable: cats IN G:\xampp\htdocs\standingo\application\view\forms\add_links_frm.php ON LINE 12
+[4:19 PM Nov 23 2011] Notice: Undefined variable: cats IN G:\xampp\htdocs\standingo\application\view\forms\add_links_frm.php ON LINE 12
+[4:19 PM Nov 23 2011] Notice: Undefined variable: cats IN G:\xampp\htdocs\standingo\application\view\forms\add_links_frm.php ON LINE 11
+[4:24 PM Nov 23 2011] Notice: Undefined variable: data IN J:\xampp\htdocs\standingo\application\controller\user_manager.php ON LINE 40
+[4:24 PM Nov 23 2011] Notice: Undefined variable: cats IN J:\xampp\htdocs\standingo\application\view\forms\add_links_frm.php ON LINE 11
+[4:24 PM Nov 23 2011] Notice: Undefined variable: cats IN J:\xampp\htdocs\standingo\application\view\forms\add_links_frm.php ON LINE 12
+[4:24 PM Nov 23 2011] Notice: Undefined variable: cats IN J:\xampp\htdocs\standingo\application\view\forms\add_links_frm.php ON LINE 12
+[4:24 PM Nov 23 2011] Notice: Undefined variable: cats IN J:\xampp\htdocs\standingo\application\view\forms\add_links_frm.php ON LINE 11
+[4:31 PM Nov 23 2011] Notice: Undefined variable: cats IN J:\xampp\htdocs\standingo\application\view\forms\add_links_frm.php ON LINE 11
+[4:31 PM Nov 23 2011] Notice: Undefined variable: cats IN J:\xampp\htdocs\standingo\application\view\forms\add_links_frm.php ON LINE 12
+[4:31 PM Nov 23 2011] Notice: Undefined variable: cats IN J:\xampp\htdocs\standingo\application\view\forms\add_links_frm.php ON LINE 12
+[4:31 PM Nov 23 2011] Notice: Undefined variable: cats IN J:\xampp\htdocs\standingo\application\view\forms\add_links_frm.php ON LINE 11
+[4:32 PM Nov 23 2011] Notice: Undefined variable: data IN J:\xampp\htdocs\standingo\application\controller\user_manager.php ON LINE 40
+[4:38 PM Nov 23 2011] Notice: Undefined variable: data IN J:\xampp\htdocs\standingo\application\controller\user_manager.php ON LINE 40
+[12:53 PM Nov 24 2011] Notice: Undefined variable: data IN J:\xampp\htdocs\standingo\application\controller\user_manager.php ON LINE 40
+[1:23 PM Nov 24 2011] Notice: Undefined variable: data IN J:\xampp\htdocs\standingo\application\controller\user_manager.php ON LINE 36
+[1:34 PM Nov 24 2011] Notice: Undefined variable: style IN J:\xampp\htdocs\standingo\application\view\header.php ON LINE 5
+[1:36 PM Nov 24 2011] Notice: Undefined variable: cats IN J:\xampp\htdocs\standingo\application\view\forms\add_links_frm.php ON LINE 11
+[1:36 PM Nov 24 2011] Notice: Undefined variable: cats IN J:\xampp\htdocs\standingo\application\view\forms\add_links_frm.php ON LINE 12
+[1:36 PM Nov 24 2011] Notice: Undefined variable: cats IN J:\xampp\htdocs\standingo\application\view\forms\add_links_frm.php ON LINE 12
+[1:36 PM Nov 24 2011] Notice: Undefined variable: cats IN J:\xampp\htdocs\standingo\application\view\forms\add_links_frm.php ON LINE 11
+[1:58 PM Nov 24 2011] Notice: Undefined offset: 7 IN J:\xampp\htdocs\standingo\application\view\forms\add_links_frm.php ON LINE 16
+[1:58 PM Nov 24 2011] Notice: Undefined offset: 7 IN J:\xampp\htdocs\standingo\application\view\forms\add_links_frm.php ON LINE 16
+[1:59 PM Nov 24 2011] Notice: Undefined offset: 7 IN J:\xampp\htdocs\standingo\application\view\forms\add_links_frm.php ON LINE 16
+[1:59 PM Nov 24 2011] Notice: Undefined offset: 7 IN J:\xampp\htdocs\standingo\application\view\forms\add_links_frm.php ON LINE 16
+[2:01 PM Nov 24 2011] Notice: Undefined offset: 7 IN J:\xampp\htdocs\standingo\application\view\forms\add_links_frm.php ON LINE 16
+[2:01 PM Nov 24 2011] Notice: Undefined offset: 7 IN J:\xampp\htdocs\standingo\application\view\forms\add_links_frm.php ON LINE 16
+[10:07 PM Nov 24 2011] Strict Standards: mktime() [<a href='function.mktime'>function.mktime</a>]: You should be using the time() function instead IN G:\xampp\htdocs\standingo\application\model\links.php ON LINE 26
+[10:07 PM Nov 24 2011] Notice: Undefined variable: textfile IN G:\xampp\htdocs\standingo\application\model\links.php ON LINE 30
+[10:07 PM Nov 24 2011] Warning: file() [<a href='function.file'>function.file</a>]: Filename cannot be empty IN G:\xampp\htdocs\standingo\application\model\links.php ON LINE 30
+[10:07 PM Nov 24 2011] Notice: Undefined variable: textfile IN G:\xampp\htdocs\standingo\application\model\links.php ON LINE 33
+[10:07 PM Nov 24 2011] Warning: fopen() [<a href='function.fopen'>function.fopen</a>]: Filename cannot be empty IN G:\xampp\htdocs\standingo\application\model\links.php ON LINE 33
+[10:07 PM Nov 24 2011] Notice: Undefined variable: nk_txt IN G:\xampp\htdocs\standingo\application\model\links.php ON LINE 36
+[10:07 PM Nov 24 2011] Warning: fwrite() expects parameter 1 to be resource, boolean given IN G:\xampp\htdocs\standingo\application\model\links.php ON LINE 39
+[10:07 PM Nov 24 2011] Warning: fclose() expects parameter 1 to be resource, boolean given IN G:\xampp\htdocs\standingo\application\model\links.php ON LINE 42
+[10:10 PM Nov 24 2011] Warning: fopen() expects parameter 1 to be string, array given IN G:\xampp\htdocs\standingo\application\model\links.php ON LINE 33
+[10:10 PM Nov 24 2011] Notice: Undefined variable: nk_txt IN G:\xampp\htdocs\standingo\application\model\links.php ON LINE 36
+[10:10 PM Nov 24 2011] Warning: fwrite() expects parameter 1 to be resource, boolean given IN G:\xampp\htdocs\standingo\application\model\links.php ON LINE 39
+[10:10 PM Nov 24 2011] Warning: fclose() expects parameter 1 to be resource, boolean given IN G:\xampp\htdocs\standingo\application\model\links.php ON LINE 42
+[10:11 PM Nov 24 2011] Notice: Undefined variable: textfile IN G:\xampp\htdocs\standingo\application\model\links.php ON LINE 33
+[10:11 PM Nov 24 2011] Warning: fopen() [<a href='function.fopen'>function.fopen</a>]: Filename cannot be empty IN G:\xampp\htdocs\standingo\application\model\links.php ON LINE 33
+[10:11 PM Nov 24 2011] Notice: Undefined variable: nk_txt IN G:\xampp\htdocs\standingo\application\model\links.php ON LINE 36
+[10:11 PM Nov 24 2011] Warning: fwrite() expects parameter 1 to be resource, boolean given IN G:\xampp\htdocs\standingo\application\model\links.php ON LINE 39
+[10:11 PM Nov 24 2011] Warning: fclose() expects parameter 1 to be resource, boolean given IN G:\xampp\htdocs\standingo\application\model\links.php ON LINE 42
+[10:11 PM Nov 24 2011] Notice: Undefined variable: nk_txt IN G:\xampp\htdocs\standingo\application\model\links.php ON LINE 36
