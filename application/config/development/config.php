@@ -59,3 +59,7 @@ config::set('folder_helpers','helper');         // Helpers
 config::set('folder_languages','language');     // Languages
 config::set('folder_errors','error');           // Errors
 config::set('folder_orm','orm');                // ORM
+
+/* site settings */
+config::set('site_title', 'TechShed');
+config::set('sub_title', 'design::develop::deploy');

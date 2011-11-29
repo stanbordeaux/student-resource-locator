@@ -2,12 +2,17 @@
 
 <h1>View Web Links Here</h1>
 <form action='<?php echo url::page('links/view_links');?>' method='post'>
-<p><label for='type'>Choose a category:&nbsp;</label><select name='type' id='type'>
+
+<p><label for='category'>Choose a category:&nbsp;</label><select name='category' id='category'>
+
+<!-- display the categories for the drop down list -->
 <option value='all'>All</option>
-<option value='Web Design'>Web Design</option>
-<option value='News'>News</option>
-<option value='Sports'>Sports</option>
+<?php for ($i=0; $i < count($cats); $i++):?>
+<option value="<?php echo $cats[$i]['value'];?>"><?php echo $cats[$i]['name'];?></option>
+<?php endfor;?>
 </select></p>
+
+
 <p><label for='sort_type'>Choose a field to sort by:&nbsp;</label><select name='sort_type' id='sort_type'>
 <option value='no_sort'>No Sort</option>
 <option value='category'>Category</option>
