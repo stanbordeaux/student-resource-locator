@@ -307,3 +307,13 @@
 [9:00 PM Nov 29 2011] Notice: Undefined variable: cats IN C:\wamp\www\standingo\application\view\templates\layout.php ON LINE 25
 [9:00 PM Nov 29 2011] Notice: Undefined variable: cats IN C:\wamp\www\standingo\application\view\templates\layout.php ON LINE 25
 [9:00 PM Nov 29 2011] Notice: Undefined variable: cats IN C:\wamp\www\standingo\application\view\templates\layout.php ON LINE 25
+[7:29 AM Nov 30 2011] Notice: Undefined variable: cats IN C:\wamp\www\standingo\application\view\forms\add_links_frm.php ON LINE 15
+[7:29 AM Nov 30 2011] Notice: Undefined variable: cats IN C:\wamp\www\standingo\application\view\forms\add_links_frm.php ON LINE 15
+[7:29 AM Nov 30 2011] Notice: Undefined variable: cats IN C:\wamp\www\standingo\application\view\forms\view_links_frm.php ON LINE 10
+[7:30 AM Nov 30 2011] Warning: The requested view (application/view/forms/add_cat_frm.php) could not be found. IN current file ON LINE (unknown)
+[7:30 AM Nov 30 2011] Notice: Undefined variable: cats IN C:\wamp\www\standingo\application\view\forms\add_links_frm.php ON LINE 15
+[7:34 AM Nov 30 2011] Notice: Undefined variable: cats IN C:\wamp\www\standingo\application\view\templates\layout.php ON LINE 10
+[7:34 AM Nov 30 2011] Notice: Undefined variable: cats IN C:\wamp\www\standingo\application\view\forms\add_links_frm.php ON LINE 15
+[9:17 AM Nov 30 2011] Notice: Undefined variable: site_title IN C:\wamp\www\standingo\application\view\pages\link_table.php ON LINE 2
+[9:17 AM Nov 30 2011] Notice: Undefined variable: links IN C:\wamp\www\standingo\application\view\pages\link_table.php ON LINE 26
+[9:17 AM Nov 30 2011] Warning: Invalid argument supplied for foreach() IN C:\wamp\www\standingo\application\view\pages\link_table.php ON LINE 26

@@ -42,4 +42,22 @@ class Links_model {
 		fclose($fh);
 		//header('Location: view_links.php');
 	}
+
+	public function get_links()
+	{
+		$data = file($this->textfile);
+
+		// loop through the array to process each line
+		for ($i = 0; $i < count($data); $i++) 
+		{
+		// separate each element and store in a temporary array
+		$tmp = explode(',', $data[$i]);
+		// assign each element of the temporary array to a named array key
+		$data[$i] = array('url' => $tmp[0], 'link' => $tmp[1], 'category' => $tmp[2], 'date_added' => $tmp[3], 'counter' => rtrim($tmp[4]));
+
+		}
+
+		return $data;
+
+	}
 }

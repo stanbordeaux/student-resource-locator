@@ -12,8 +12,8 @@
 
 <!-- display the categories for the drop down list -->
 <option value='all'>All</option>
-<?php for ($i=0; $i < count($cats); $i++):?>
-<option value="<?php echo $cats[$i]['value'];?>"><?php echo $cats[$i]['name'];?></option>
+<?php for ($i=0; $i < count($data); $i++):?>
+<option value="<?php echo $data[$i]['value'];?>"><?php echo $data[$i]['name'];?></option>
 <?php endfor;?>
 </select></p>
 

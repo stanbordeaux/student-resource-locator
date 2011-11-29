@@ -22,7 +22,7 @@
 			</ul>
 		</div><!--end section navigation-->
 		<div id="content">
-			<?php echo load::view($content);?>
+			<?php echo load::view($content, $data);?>
 		</div><!--end content-->
 		<div id="aside">
 			<h3>

@@ -32,13 +32,13 @@ class Links_controller
 		$data['site_title'] = config::get('site_title');
 		$data['sub_title'] = config::get('sub_title');
 		$data['content'] = "forms/$name";
-		$data['cats'] = $frmdata;
+		$data['data'] = $frmdata;
 		load::view('templates/layout', $data);
 	}
 	public function add_form()
 	{
 		$links = load::model('links');
-		$data['cats'] = $links->get_cats();
+		$data['data'] = $links->get_cats();
 		$this->get_form('add_links_frm', $data);
 		//load::view('forms/add_links_frm', $data);
 	}
@@ -46,7 +46,7 @@ class Links_controller
 	public function links_form()
 	{
 		$links = load::model('links');
-		$data['cats'] = $links->get_cats();
+		$data['data'] = $links->get_cats();
 		$this->get_form('view_links_frm', $data);
 		
 	}
@@ -54,5 +54,18 @@ class Links_controller
 	public function category_form()
 	{
 		$this->get_form('add_cat_frm');
+	}
+
+	public function view_links()
+	{
+		$data['site_title'] = config::get('site_title');
+		$data['sub_title'] = config::get('sub_title');
+		$data['content'] = "pages/link_table";
+		$links = load::model('links');
+		$data['data'] = $links->get_links();
+
+		load::view('templates/layout', $data);
+
+
 	}
 }
